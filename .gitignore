@@ -1,0 +1,12 @@
+# created by virtualenv automatically
+bin
+lib
+pyvenv.cfg
+db.sqlite3
+
+# django default
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
