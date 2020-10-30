@@ -2,24 +2,26 @@
 
 API para salvar seus livros favoritos.
 
-## Install
+## Instalação
 
 Use o pacote gerenciador [pip](https://pip.pypa.io/en/stable/) to install requirements.txt.
 
 ```bash
-virtualenv
-```
-
-
-```bash
-pip install -r requirements.txt
+Clonar o repositório: git clone https://github.com/hevertongomes/book_store_api
+Acessar o diretório baixado: cd book_store_api
+Executar o comando: virtualenv .
+Executar o comando: source bin/activate
+Executar o comando: pip install -r requirements.txt
 ```
 
 # Execução
 
 ```
+No diretório do projeto clonado após instalação digitar sequintes comandos:
+
 python manage.py migrate
-python manage.py runserve
+python manage.py runserver
+
 ```
 
 # Documentação
